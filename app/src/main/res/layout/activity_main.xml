@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:text="OFF" />
+
+            <Switch
+                android:id="@+id/s"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Switch" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:text="ON" />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:text="OFF" />
+
+            <ToggleButton
+                android:id="@+id/tgbtn"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="ToggleButton" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:text="ON" />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="30" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:onClick="check"
+                android:text="see what color you got " />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="30" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10" />
+
+    </LinearLayout>
+</LinearLayout>
